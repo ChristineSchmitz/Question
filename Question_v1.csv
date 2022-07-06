@@ -1,0 +1,10 @@
+variable;distribution;lower;median;upper;unit
+risk_1;tnorm_0_1;0.2;NA;0.5;%
+risk_2;tnorm_0_1;0.1;NA;0.3;%
+n_stops;posnorm;3;NA;5;
+stop_risk;tnorm_0_1;0.4;NA;0.6;%
+n_years;const;20;NA;20;years
+frost_risk;tnorm_0_1;0.3;NA;0.7;%
+n_nights_frost;posnorm;1;NA;15;nights
+var_cv;posnorm;1;NA;5;
+n_starts_unnecessary;posnorm;1;NA;5;starts
